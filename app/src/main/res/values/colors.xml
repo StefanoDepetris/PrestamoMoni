@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    # Flipi
+    <color name="flipi_yellow">#FFECC657</color>
+    <color name="flipi_dark_blue">#FF324056</color>
+    <color name="flipi_dark_pink">#FFC54D67</color>
+    <color name="flipi_green">#8BC34A</color>
+    <color name="flipi_blue">#2D4B67</color>
+    <color name="flipi_blue_shine">#3E678E</color>
+    <color name="flipi_strong_yellow">#F7C138</color>
+    <color name="flipi_light_yellow">#F8D333</color>
+    <color name="flipi_light_yellow_shining">#F9DD62</color>
+    <color name="flipi_background">#F6E9C3</color>
+    <color name="flipi_grey">#757575</color>
+    <color name="flipi_light_grey">#8A8A8A</color>
+    <color name="flipi_light_blue">#92CBDD</color>
+    <color name="flipi_light_blue_shining">#A2D3E2</color>
+
+    <color name="flipi_warm_yellow">#FFEEBC</color>
+    <color name="lipi_warm_yellowx2">#ACA03B</color>
+    <color name="flipi_warning_red">#D94545</color>
+    <color name="flipi_warning_red_shine">#E06666</color>
+    <color name="flipi_strong_red">#CB2A2A</color>
+
+
+    <color name="flipi_pending">#CB2A2A</color>
+    <color name="flipi_partial">#CB752A</color>
+    <color name="flipi_done">#3E678E</color>
+</resources>

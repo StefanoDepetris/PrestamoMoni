@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Prestamo Moni</string>
+    <string name="btn_verificar_estado_crediticio">Chequear estado de credito</string>
+    <string name="introduzca_sus_datos">Ingrese sus datos</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellido">Apellido</string>
+    <string name="hint_genero">Genero</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_dni">Documento</string>
+    <string name="btn_lista_peticiones">Listar peticiones</string>
+    <string name="estado_crediticio">Estado del credito: %s</string>
+    <string name="titleapp">Prestamos MONI</string>
+    <string name="title_lista_de_solicitudes_de_prestamo">Lista: Solicitudes de préstamo</string>
+    <string name="item_status">Estado: %s</string>
+    <string name="item_titular_nombre">Titular: %1$s %2$s</string>
+    <string name="item_titular_dni">Documento: %s</string>
+    <string name="item_titular_email">Email: %s</string>
+    <string name="item_titular_genero">Género : %s</string>
+    <string name="btn_eliminar_solicitud">Eliminar solicitud</string>
+    <string name="btn_modificar_solicitud">Modificar solicitud</string>
+    <string name="title_item_prestamo">Prestamo Moni</string>
+    <string name="registration_result_message_ok">Su solicitud de préstamo aprobada</string>
+    <string name="registration_result_message_fail">Intente nuevamente.</string>
+    <string name="btn_modificar_solicitud_prestamo">Modificar</string>
+    <string name="campo_dni">Documento:</string>
+    <string name="campo_genero">Género:</string>
+    <string name="campo_email">Email:</string>
+    <string name="campo_apellido">Apellido:</string>
+    <string name="campo_nombre">Nombre:</string>
+    <string name="proximamente">Próximamente...</string>
+
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

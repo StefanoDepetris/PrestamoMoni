@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="8dp"
+    android:backgroundTint="@color/flipi_background"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lineblackcorner"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_launcher_foreground" />
+            </FrameLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/tv_item_status_loan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:text="@string/item_status"
+                android:textColor="@color/flipi_strong_red"
+                android:textStyle="bold"
+
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Estado: Aproved" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_item">
+
+                <TextView
+                    android:id="@+id/tv_item_name_person"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/item_titular_nombre"
+                    android:textSize="14sp"
+                    android:textColor="@color/flipi_grey"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:text="Titular: Stefano depetris" />
+
+                <TextView
+                    android:id="@+id/tv_item_dni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/item_titular_dni"
+                    android:textSize="14sp"
+                    android:textColor="@color/flipi_grey"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:text="DNI: 40772990" />
+
+                <TextView
+                    android:id="@+id/tv_item_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/item_titular_email"
+                    android:textSize="14sp"
+                    android:textColor="@color/flipi_grey"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:text="email: stefanodepetris@gmail.com" />
+
+                <TextView
+                    android:id="@+id/tv_item_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/item_titular_genero"
+                    android:textSize="14sp"
+                    android:textColor="@color/flipi_grey"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:text="Género: Masculino" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_remove"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/flipi_dark_blue"
+                        android:text="@string/btn_eliminar_solicitud"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

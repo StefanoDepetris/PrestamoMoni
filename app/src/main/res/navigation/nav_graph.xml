@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loanFragmentMain">
+
+    <fragment
+        android:id="@+id/loanFragmentMain"
+        android:name="com.example.prestamomoni.ui.LoanFragmentMain"
+        android:label="fragment_loan_main"
+        tools:layout="@layout/fragment_loan_main" >
+        <action
+            android:id="@+id/action_loanFragmentMain_to_loanList"
+            app:destination="@id/loanList" />
+    </fragment>
+    <fragment
+        android:id="@+id/loanList"
+        android:name="com.example.prestamomoni.ui.LoanList"
+        android:label="fragment_loan_list"
+        tools:layout="@layout/fragment_loan_list" >
+        <action
+            android:id="@+id/action_loanList_to_loanModification"
+            app:destination="@id/loanModification" />
+    </fragment>
+    <fragment
+        android:id="@+id/loanModification"
+        android:name="com.example.prestamomoni.ui.LoanModification"
+        android:label="LoanModification" >
+        <argument
+            android:name="loanObj"
+            app:argType="com.example.prestamomoni.data.model.Loan" />
+    </fragment>
+</navigation>
